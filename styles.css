@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1CB5E7;
+    background: linear-gradient(0deg, #5EA4F3, #b9e2f8);
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1250px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 450px;
+    height: 550px;
+    background: linear-gradient(180deg, #fff 60%, rgb(223, 215, 215));
+    box-shadow: 5px 5px 10px 0px #0f5b7438;
+}
+
+.box__top{
+    width: 450px;
+    height: 70px;
+    background-color: #52A6D4;
+    
+}
+.margin{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.intro{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.img{
+    margin-top: 22px;
+}
+.intro h3{
+    color: #fff;
+
+}
+.elips{
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin-right: 15px;
+}
+
+
+.today{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.today p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 700;
+    color: rgb(207, 205, 205);;
+}
+hr{
+    transform: rotate(180deg);
+    width: 180px;
+    height: 2px;
+    background-color: rgb(207, 205, 205);
+    border: none;
+}
+
+.sms{
+    width: 280px;
+    height: 50px;
+    background-color: #e5f7fd;
+    margin-top: 5px;
+    margin-left: 30px;
+    padding: 10px 20px 5px 10px;
+    border-radius: 5px;
+    position: relative;
+}
+.sms::before{
+    content: "";
+    width: 0;
+    position: absolute;
+    border: 20px solid #e5f7fd;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: translateX(-14px);
+    top: 0;
+    left: 0;
+}
+.clock{
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 10px;
+    font-weight: 500;
+    color: #999;
+}
+.sms-2{
+    width: 290px;
+    background-color: #FFF4F4;
+    margin-top: 5px;
+    margin-left: 100px;
+    padding: 10px 5px 10px 10px;
+    border-radius: 5px;
+    position: relative;
+}
+.sms-2::before{
+    content: "";
+    width: 0;
+    position: absolute;
+    border: 20px solid #FFF4F4;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: translateX(14px);
+    top: 0;
+    right: 0;
+}
+.clock-2{
+    margin-left: 380px;
+    margin-top: 25px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #999;
+}
+.sms-3{
+    width: 90px;
+    background-color: #C3E9F6;
+    margin-top: 5px;
+    margin-left: 30px;
+    padding: 10px 0px 10px 10px;
+    border-radius: 5px;
+    position: relative;
+}
+.sms-3::before{
+    content: "";
+    width: 0;
+    position: absolute;
+    border: 20px solid #C3E9F6;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: translateX(-14px);
+    top: 0;
+    left: 0;
+}
+.sms-4{
+    width: 220px;
+    background-color: #F7D9D7;
+    margin-top: 10px;
+    margin-left: 170px;
+    padding: 10px 5px 10px 10px;
+    border-radius: 5px;
+    position: relative;
+}
+.sms-4::before{
+    content: "";
+    width: 0;
+    position: absolute;
+    border: 20px solid #F7D9D7;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: translateX(14px);
+    top: 0;
+    right: 0;
+}
+::-webkit-input-placeholder{ font-size: 18px }
+input{
+    width: 400px;
+    margin-left: 25px;
+    margin-top: 10px;
+    padding-top: 23px;
+    padding-bottom: 10px;
+    outline: none;
+    border: none;
+    border-top: 1px solid #666;
+    background-color: transparent;
+}
+.input{
+    display: flex;
+    align-items: center;
+}
+button{
+    border: none;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: #0487D6;
+    /* padding: 30px; */
+}
